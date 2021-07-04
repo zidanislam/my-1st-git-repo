@@ -39,6 +39,7 @@ h2{
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
+    margin-bottom: 150px;
 }
 .experience{
     display: flex;
