@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: orange;
 }
@@ -36,4 +39,35 @@ h1{
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
+}
+.experience{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: bottom;
+    margin-bottom: 150px;
+
+}
+.developer-div{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 4%;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    
+}
+#stack-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
